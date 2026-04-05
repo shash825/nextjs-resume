@@ -3,10 +3,13 @@ export default function Home() {
     <main className="max-w-3xl mx-auto px-6 py-12 bg-white min-h-screen">
       <header className="mb-10">
         <h1 className="text-4xl font-bold text-gray-900 tracking-tight">Shashwat (Shash) Singh</h1>
-        <p className="text-sm text-gray-500 mt-2 flex flex-wrap gap-x-3">
+        <p className="text-sm text-gray-500 mt-2 flex flex-wrap items-center gap-x-4">
           <span>(312) 504-0050</span>
+          <span className="text-gray-300">|</span>
           <span>Tampa, FL</span>
+          <span className="text-gray-300">|</span>
           <a href="mailto:ss44@usf.edu" className="text-blue-600 hover:underline">ss44@usf.edu</a>
+          <span className="text-gray-300">|</span>
           <a href="https://www.linkedin.com/in/shash28" className="text-blue-600 hover:underline">linkedin.com/in/shash28</a>
         </p>
         <p className="mt-4 text-gray-700 leading-relaxed">
