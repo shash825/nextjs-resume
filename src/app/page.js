@@ -1,17 +1,12 @@
 export default function Home() {
   return (
-    <main className="max-w-3xl mx-auto px-6 py-12 bg-white min-h-screen">
+    <main className="max-w-3xl mx-auto px-8 py-12 bg-gray-200 min-h-screen shadow-lg my-10 rounded-lg border border-gray-100">
       <header className="mb-10">
         <h1 className="text-4xl font-bold text-gray-900 tracking-tight">Shashwat (Shash) Singh</h1>
-        <p className="text-sm text-gray-500 mt-2 flex flex-wrap items-center gap-x-4">
-          <span>(312) 504-0050</span>
-          <span className="text-gray-300">|</span>
-          <span>Tampa, FL</span>
-          <span className="text-gray-300">|</span>
-          <a href="mailto:ss44@usf.edu" className="text-blue-600 hover:underline">ss44@usf.edu</a>
-          <span className="text-gray-300">|</span>
-          <a href="https://www.linkedin.com/in/shash28" className="text-blue-600 hover:underline">linkedin.com/in/shash28</a>
+        <p className="text-sm text-gray-500 mt-2">
+          (312) 504-0050 &nbsp;|&nbsp; Tampa, FL &nbsp;|&nbsp; <a href="mailto:ss44@usf.edu" className="text-blue-600 hover:underline">ss44@usf.edu</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/shash28" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">linkedin.com/in/shash28</a>
         </p>
+
         <p className="mt-4 text-gray-700 leading-relaxed">
           Business Analytics &amp; Information Systems student at the University of South Florida
           with a cybersecurity concentration and a strong foundation in data visualization,
@@ -23,7 +18,7 @@ export default function Home() {
       </header>
 
       <section className="border-t border-gray-200 pt-6 mt-6">
-        <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-800 mb-4">Education</h2>
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4 inline-block border-b-2 border-blue-600 pb-1">Education</h2>
         <div>
           <div className="flex justify-between items-baseline">
             <h3 className="font-semibold text-gray-900">University of South Florida — Muma College of Business</h3>
@@ -35,13 +30,13 @@ export default function Home() {
             <span className="font-medium">Relevant Coursework:</span> System Analysis &amp; Design, Business Application Development, AI &amp; Analytics, Data Analytics for Business, Financial &amp; Managerial Accounting, Risk Management &amp; Insurance, Statistics
           </p>
            <p className="text-sm text-gray-600 mt-1">
-              <span className="font-semibold">Awards:</span> USF Green and Gold Presidential Award Reciepient
+              <span className="font-semibold">Awards:</span> USF Green and Gold Presidential Award Recipient
            </p>
         </div>
       </section>
 
       <section className="border-t border-gray-200 pt-6 mt-6">
-        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">Technical Skills &amp; Certifications</h2>
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4 inline-block border-b-2 border-blue-600 pb-1">Technical Skills &amp; Certifications</h2>
         <div className="text-sm text-gray-700">
           <p>
             <span className="font-semibold">Tools &amp; Languages:</span> Python, Java, SQL, Javascript, Tableau, Power BI, Microsoft Excel, Microsoft PowerPoint
@@ -53,7 +48,7 @@ export default function Home() {
       </section>
 
       <section className="border-t border-gray-200 pt-6 mt-6">
-        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">Experience</h2>
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4 inline-block border-b-2 border-blue-600 pb-1">Experience</h2>
 
         <div className="mb-5">
           <div className="flex justify-between items-baseline">
@@ -81,7 +76,7 @@ export default function Home() {
       </section>
 
       <section className="border-t border-gray-200 pt-6 mt-6">
-        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">Leadership &amp; Involvement</h2>
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4 inline-block border-b-2 border-blue-600 pb-1">Leadership &amp; Involvement</h2>
 
         <div className="mb-4">
           <div className="flex justify-between items-baseline">
@@ -104,7 +99,7 @@ export default function Home() {
       </section>
 
       <section className="border-t border-gray-200 pt-6 mt-6">
-        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">Volunteering</h2>
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4 inline-block border-b-2 border-blue-600 pb-1">Volunteering</h2>
 
         <div className="mb-4">
           <div className="flex justify-between items-baseline">
