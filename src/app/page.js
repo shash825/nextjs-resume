@@ -17,6 +17,20 @@ export default function Home() {
           opportunities to apply analytical and technical skills in a fast-paced,
           results-oriented environment.
         </p>
+        <section className="border-t border-gray-200 pt-6 mt-6">
+        <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-800 mb-4">Education</h2>
+        <div>
+          <div className="flex justify-between items-baseline">
+            <h3 className="font-semibold text-gray-900">University of South Florida — Muma College of Business</h3>
+            <span className="text-sm text-gray-500">Expected May 2028</span>
+          </div>
+          <p className="text-gray-700">B.S. in Business Analytics &amp; Information Systems, Cybersecurity Concentration</p>
+          <p className="text-sm text-gray-600 mt-1">GPA: 3.85 / 4.00</p>
+          <p className="text-sm text-gray-600 mt-1">
+            <span className="font-medium">Relevant Coursework:</span> System Analysis &amp; Design, Business Application Development, AI &amp; Analytics, Data Analytics for Business, Financial &amp; Managerial Accounting, Risk Management &amp; Insurance, Statistics
+          </p>
+        </div>
+      </section>
       </header>
     </main>
   );
