@@ -17,7 +17,8 @@ export default function Home() {
           opportunities to apply analytical and technical skills in a fast-paced,
           results-oriented environment.
         </p>
-        <section className="border-t border-gray-200 pt-6 mt-6">
+
+      <section className="border-t border-gray-200 pt-6 mt-6">
         <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-800 mb-4">Education</h2>
         <div>
           <div className="flex justify-between items-baseline">
@@ -31,6 +32,19 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <section className="border-t border-gray-200 pt-6 mt-6">
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">Technical Skills &amp; Certifications</h2>
+        <div className="text-sm text-gray-700">
+          <p>
+            <span className="font-semibold">Tools &amp; Languages:</span> Python, Java, SQL, Javascript, Tableau, Power BI, Microsoft Excel, Microsoft PowerPoint
+          </p>
+          <p className="mt-1">
+            <span className="font-semibold">Certifications:</span> Oracle Cloud Infrastructure Foundations, (ISC)² Certified in Cybersecurity, Excel Fundamentals, Data Visualization
+          </p>
+        </div>
+      </section>
+
       </header>
     </main>
   );
