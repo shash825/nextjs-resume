@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Resume
 
-## Getting Started
+A single-page resume webpage built with Next.js (App Router) and styled entirely with Tailwind CSS utility classes.
 
-First, run the development server:
-
+## How to Run Locally
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [x] Next.js project scaffolded with App Router and Tailwind CSS
+- [x] All resume content written as JSX in `src/app/page.js`
+- [x] Real, complete resume information (no placeholder text)
+- [x] Semantic HTML elements (`<header>`, `<main>`, `<section>`, `<footer>`)
+- [x] Logical heading hierarchy (`<h1>` for name, `<h2>` for sections, `<h3>` for entries)
+- [x] All styling done with Tailwind CSS utility classes via `className`
+- [x] No custom CSS rules in `globals.css`
+- [x] Clean, readable layout at desktop viewport
+- [x] Accessible links with descriptive labels
+- [x] No console errors
+- [x] Default boilerplate cleaned up
 
-## Learn More
+## Sections Included
 
-To learn more about Next.js, take a look at the following resources:
+- Name, contact info, and professional summary
+- Education
+- Technical Skills and Certifications
+- Work Experience
+- Leadership and Involvement
+- Volunteering
+- Interests
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Known Issues / Limitations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Layout is optimized for desktop viewports; not fully responsive on mobile
+- No dark mode support
