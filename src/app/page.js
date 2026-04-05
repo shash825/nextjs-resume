@@ -45,6 +45,34 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-t border-gray-200 pt-6 mt-6">
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">Experience</h2>
+
+        <div className="mb-5">
+          <div className="flex justify-between items-baseline">
+            <h3 className="text-base font-semibold text-gray-900">Self-Employed — A.I. Solutions Developer</h3>
+            <span className="text-sm text-gray-500">May 2025 – Present</span>
+          </div>
+          <p className="text-sm text-gray-500">Tampa, FL</p>
+          <ul className="list-disc list-inside text-sm text-gray-700 mt-2 space-y-1">
+            <li>Developed custom AI chat agents for small-business websites, improving response quality and increasing customer conversions.</li>
+            <li>Collaborated with clients to refine conversational flows and integrations, boosting engagement while reducing manual support time.</li>
+          </ul>
+        </div>
+
+        <div>
+          <div className="flex justify-between items-baseline">
+            <h3 className="text-base font-semibold text-gray-900">Sedgebrook — Server / Food Runner / Busser</h3>
+            <span className="text-sm text-gray-500">Aug 2023 – Aug 2024</span>
+          </div>
+          <p className="text-sm text-gray-500">Lincolnshire, IL</p>
+          <ul className="list-disc list-inside text-sm text-gray-700 mt-2 space-y-1">
+            <li>Delivered attentive meal service to elderly residents, ensuring comfort and personalized dining experiences in a senior-living community.</li>
+            <li>Trained new team members on service standards and effective communication with older adults.</li>
+          </ul>
+        </div>
+      </section>
+
       </header>
     </main>
   );
