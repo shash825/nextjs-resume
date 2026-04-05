@@ -30,6 +30,9 @@ export default function Home() {
           <p className="text-sm text-gray-600 mt-1">
             <span className="font-medium">Relevant Coursework:</span> System Analysis &amp; Design, Business Application Development, AI &amp; Analytics, Data Analytics for Business, Financial &amp; Managerial Accounting, Risk Management &amp; Insurance, Statistics
           </p>
+           <p className="text-sm text-gray-600 mt-1">
+              <span className="font-semibold">Awards:</span> USF Green and Gold Presidential Award Reciepient
+           </p>
         </div>
       </section>
 
@@ -72,6 +75,57 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
+      <section className="border-t border-gray-200 pt-6 mt-6">
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">Leadership &amp; Involvement</h2>
+
+        <div className="mb-4">
+          <div className="flex justify-between items-baseline">
+            <h3 className="text-base font-semibold text-gray-900">Delta Tau Delta Fraternity</h3>
+            <span className="text-sm text-gray-500">Tampa, FL</span>
+          </div>
+
+          <p className="text-sm text-gray-700 italic mt-1">Finance Committee: Spring 2025 – Present</p>
+          <ul className="list-disc list-inside text-sm text-gray-700 mt-1 space-y-1">
+            <li>Managed a $70,000 semester budget funded through member dues, using pivot tables and VLOOKUP to track spending.</li>
+            <li>Delivered financial analyses to chapter leadership, translating raw data into actionable updates for executive officers.</li>
+          </ul>
+
+          <p className="text-sm text-gray-700 italic mt-3">Academic Chair: Fall 2024 – Spring 2025</p>
+          <ul className="list-disc list-inside text-sm text-gray-700 mt-1 space-y-1">
+            <li>Led twice-weekly academic programming sessions, creating a structured environment that strengthened chapter GPA.</li>
+            <li>Set clear participation expectations and maintained accountability to sustain academic engagement.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="border-t border-gray-200 pt-6 mt-6">
+        <h2 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-4">Volunteering</h2>
+
+        <div className="mb-4">
+          <div className="flex justify-between items-baseline">
+            <h3 className="text-base font-semibold text-gray-900">Chicago Lacrosse Cup</h3>
+            <span className="text-sm text-gray-500">Vernon Hills, IL : Summer 2023 - Present</span>
+          </div>
+          <ul className="list-disc list-inside text-sm text-gray-700 mt-2 space-y-1">
+            <li>Coordinated logistics for an annual week-long youth lacrosse tournament, the largest of its kind in Illinois.</li>
+          </ul>
+        </div>
+
+        <div>
+          <div className="flex justify-between items-baseline">
+            <h3 className="text-base font-semibold text-gray-900">Trinity Cafe</h3>
+            <span className="text-sm text-gray-500">Tampa, FL : Feb 2025 - Present</span>
+          </div>
+          <ul className="list-disc list-inside text-sm text-gray-700 mt-2 space-y-1">
+            <li>Provide meal-distribution support at a Tampa food shelter serving homeless and disabled residents.</li>
+          </ul>
+        </div>
+      </section>
+
+      <footer className="border-t border-gray-200 pt-4 mt-8 text-xs text-gray-400">
+        <p>Interests: Weightlifting, Reading, Traveling, Volunteering</p>
+      </footer>
 
       </header>
     </main>
