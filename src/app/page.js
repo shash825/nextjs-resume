@@ -17,6 +17,7 @@ export default function Home() {
           opportunities to apply analytical and technical skills in a fast-paced,
           results-oriented environment.
         </p>
+      </header>
 
       <section className="border-t border-gray-200 pt-6 mt-6">
         <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-800 mb-4">Education</h2>
@@ -126,8 +127,6 @@ export default function Home() {
       <footer className="border-t border-gray-200 pt-4 mt-8 text-xs text-gray-400">
         <p>Interests: Weightlifting, Reading, Traveling, Volunteering</p>
       </footer>
-
-      </header>
     </main>
   );
 }
