@@ -1,4 +1,4 @@
-# Next.js Resume
+# Resume
 
 A single-page resume webpage built with Next.js (App Router) and styled entirely with Tailwind CSS utility classes.
 
